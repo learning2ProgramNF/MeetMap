@@ -12,7 +12,23 @@ Currently, two official plugins are available:
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
 
 MeetMap
-MeetMap is a progressive web app that helps users find upcoming events in any city. Below are the core features expressed as Gherkin scenarios.
+MeetMap is a progressive web app that helps users find upcoming events in any city. It supports offline functionality, home screen installation, and visualizes event data with charts.
+
+User Stories
+As a user, I should be able to toggle event details
+So that I can choose when to view more information.
+
+As a user, I should be able to specify how many events I want to see
+So that I can control the amount of content displayed.
+
+As a user, I should be able to use the app when offline
+So that I can access information even without an internet connection.
+
+As a mobile user, I should be able to add the app to my home screen
+So that I can launch it quickly like a native app.
+
+As a user, I should see charts visualizing event data
+So that I can easily understand event trends and distributions.
 
 Show/Hide Event Details
 Feature: Toggle event details
